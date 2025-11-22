@@ -1,5 +1,5 @@
 import Header from '@/component/Header'
-import Table from '@/component/Table'
+import TodoTable from '@/component/TodoTable'
 import Sidebar from '@/component/Sidebar'
 import React from 'react'
 import Card from '@/component/Card'
@@ -19,7 +19,7 @@ const Layout = () => {
          <Card />
         </div>
         <div>
-        <Table />
+        <TodoTable />
         </div>
         </div>
     </div>

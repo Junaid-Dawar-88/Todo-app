@@ -11,7 +11,7 @@ interface Todo {
   due_date: string;
 }
 
-const Table = () => {
+const TodoTable = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [selectedTodo, setSelectedTodo] = useState<Todo | null>(null);
   const [statusFilter, setStatusFilter] = useState<string>("all");
@@ -125,4 +125,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default TodoTable;
